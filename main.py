@@ -8,7 +8,11 @@
 #date: 2024-05-12
 
 EMPTY = "empty"
-board = [ "EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY"]
+board = [
+   EMPTY, EMPTY, EMPTY,
+   EMPTY, EMPTY, EMPTY, 
+   EMPTY, EMPTY, EMPTY
+]
 
 def draw_board ():
   print("   |   |   ")
