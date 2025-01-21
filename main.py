@@ -14,17 +14,18 @@ board = [
    EMPTY, EMPTY, EMPTY
 ]
 
-def draw_board ():
+def draw_board (the_board):
   print("   |   |   ")
-  print(" 1 | 2 | 3 ")
-  print("   |   |   ")
-  print("---+---+---")
-  print("   |   |   ")
-  print(" 4 | 5 | 6 ")
+  print(" {} | {} | {} ".format(1,2,3))
   print("   |   |   ")
   print("---+---+---")
   print("   |   |   ")
-  print(" 7 | 8 | 9 ")
+  print(" {} | {} | {} ".format(4,5,6))
+  print("   |   |   ")
+  print("---+---+---")
+  print("   |   |   ")
+  print(" {} | {} | {} ".format(7,8,9))
   print("   |   |   ")
 
-draw_board()
+draw_board(board)
+ 
